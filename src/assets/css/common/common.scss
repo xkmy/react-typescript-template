@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+.text-center {
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor !important;
+  overflow: hidden;
+}
+
+.primary {
+  color: $primary-color;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-a {
+  display: flex;
+  align-items: center;
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-b {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+

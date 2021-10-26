@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "lib": ["DOM", "ESNext", "ES2017"],
+    "jsx": "react",
+    "baseUrl": "./src" /* Base directory to resolve non-absolute module names. */,
+    "paths": {
+      "@css/*": ["assets/css/*"] /* 存放公共组件样式 */,
+      "@views/*": ["views/*"],
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@services/*": ["services/*"],
+      "@typings/*": ["typings/*"],
+      "@constants/*": ["constants/*"],
+      "@router/*": ["router/*"],
+      "@store/*": ["store/*"]
+    }
+  },
+  "include": ["src"]
+}
